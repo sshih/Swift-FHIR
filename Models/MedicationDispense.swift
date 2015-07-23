@@ -288,7 +288,7 @@ import Foundation
  *
  *  Indicates how the medication is to be used by the patient.
  */
-public class MedicationDispenseDosageInstruction: FHIRElement
+@objc public class MedicationDispenseDosageInstruction: FHIRElement
 {
 	override public class var resourceName: String {
 		get { return "MedicationDispenseDosageInstruction" }
@@ -518,7 +518,7 @@ public class MedicationDispenseDosageInstruction: FHIRElement
  *  but doesn't happen, in other cases substitution is not expected but does happen.  This block explains what
  *  substitition did or did not happen and why.
  */
-public class MedicationDispenseSubstitution: FHIRElement
+@objc public class MedicationDispenseSubstitution: FHIRElement
 {
 	override public class var resourceName: String {
 		get { return "MedicationDispenseSubstitution" }

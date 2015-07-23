@@ -1,4 +1,4 @@
-//HEHEHEHEHEHEHEH!
+//
 //  Medication.swift
 //  SwiftFHIR
 //
@@ -152,7 +152,7 @@ import Foundation
  *
  *  Information that only applies to packages (not products).
  */
-public class MedicationPackage: FHIRElement
+@objc public class MedicationPackage: FHIRElement
 {
 	override public class var resourceName: String {
 		get { return "MedicationPackage" }
@@ -215,7 +215,7 @@ public class MedicationPackage: FHIRElement
  *
  *  A set of components that go to make up the described item.
  */
-public class MedicationPackageContent: FHIRElement
+@objc public class MedicationPackageContent: FHIRElement
 {
 	override public class var resourceName: String {
 		get { return "MedicationPackageContent" }
@@ -289,7 +289,7 @@ public class MedicationPackageContent: FHIRElement
  *
  *  Information that only applies to products (not packages).
  */
-public class MedicationProduct: FHIRElement
+@objc public class MedicationProduct: FHIRElement
 {
 	override public class var resourceName: String {
 		get { return "MedicationProduct" }
@@ -367,7 +367,7 @@ public class MedicationProduct: FHIRElement
  *
  *  Information about a group of medication produced or packaged from one production run.
  */
-public class MedicationProductBatch: FHIRElement
+@objc public class MedicationProductBatch: FHIRElement
 {
 	override public class var resourceName: String {
 		get { return "MedicationProductBatch" }
@@ -430,7 +430,7 @@ public class MedicationProductBatch: FHIRElement
  *
  *  Identifies a particular constituent of interest in the product.
  */
-public class MedicationProductIngredient: FHIRElement
+@objc public class MedicationProductIngredient: FHIRElement
 {
 	override public class var resourceName: String {
 		get { return "MedicationProductIngredient" }
