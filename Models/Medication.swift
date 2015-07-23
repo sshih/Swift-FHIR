@@ -14,7 +14,7 @@ import Foundation
  *
  *  Primarily used for identification and definition of Medication, but also covers ingredients and packaging.
  */
-public class Medication: DomainResource
+@objc public class Medication: DomainResource
 {
 	override public class var resourceName: String {
 		get { return "Medication" }

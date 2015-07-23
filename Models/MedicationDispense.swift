@@ -15,7 +15,7 @@ import Foundation
  *  Dispensing a medication to a named patient.  This includes a description of the supply provided and the instructions
  *  for administering the medication.
  */
-public class MedicationDispense: DomainResource
+@objc public class MedicationDispense: DomainResource
 {
 	override public class var resourceName: String {
 		get { return "MedicationDispense" }
